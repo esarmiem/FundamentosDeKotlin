@@ -10,4 +10,7 @@ fun main(args: Array<String>) {
 
     numerosFav.remove(1)
     println(numerosFav)
+    
+    val valorDelSet: Int? = numerosFav.firstOrNull { numero -> numero > 2 }
+    println(valorDelSet)
 }
